@@ -5,12 +5,12 @@ Resources:
   MyS3Bucket:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: !Sub 'jameer-cloudformation-s3bucket'
+      BucketName: 'jameer-cloudformation-s3'
 
   MyRDSInstance:
     Type: 'AWS::RDS::DBInstance'
     Properties:
-      DBName: mydatabasecloud
+      DBName: mydatabasecloudformation
       AllocatedStorage: '20'
       DBInstanceClass: 'db.t3.micro'
       Engine: 'MySQL'
