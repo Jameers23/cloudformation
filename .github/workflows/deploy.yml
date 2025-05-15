@@ -22,4 +22,4 @@ jobs:
 
     - name: Deploy CloudFormation stack
       run: |
-        aws cloudformation create-stack --stack-name jameer-my-stack --template-body file://cloudformation-template.yaml
+        aws cloudformation create-stack --stack-name jameer-cloud-stack --template-body file://cloudformation-template.yaml
